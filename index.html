@@ -5,49 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystal Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="javascript/game.js"></script>
 </head>
 <body>
     <header>
         <h1>Crystal Game</h1>
     </header>
-
-    <div class="container">
+    <div class="flex-container">
 
         <div class="row" id="directions">
             <p>Click on the crystals to earn points. Win the game when your points equal the assigned score. If you go over, you lose! </p>
             <p>Good Luck</p>
         </div>
 
-        <div class="row" id="crystals"></div> <!---Crystals will displayed here via 4 columns-->
+        <div class="row" id="crystals"> <!---Crystals will displayed here via 4 columns-->
            
             <div class="col">
-                <button>button 1</button> 
+                <button id="b1">button 1</button> 
             </div>
 
             <div class="col">
-                <button>button 2</button> 
+                <button id="b2">button 2</button> 
             </div>
 
             <div class="col">
-                <button>button 3</button> 
+                <button id="b3">button 3</button> 
             </div>
 
             <div class="col">
-                <button>button 4</button>
+                <button id="b4">button 4</button>
             </div>
-
         </div>
 
-        <div class="row"> <!---Game score will be displayed here-->
-            <div class="col"></div>
-            <div class="col"></div>
+        <div class="row" id="gameScore"> <!---Game score will be displayed here-->
+            <div class="col2"></div>
+            <div class="col2"></div>
         </div>
 
         <div class="row" id="scoreboard"> <!---Scoreboard of games won and loss-->
-            <div>Wins</div>
-            <div>Losses</div>
+            <div class="col3">Wins</div>
+            <div class="col3">Losses</div>
         </div>
     </div>
 

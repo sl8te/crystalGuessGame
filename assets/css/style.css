@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/milada-vigerova-333660-unsplash.jpg");
+    background-size: cover;
+
+    
+}
+header{
+    text-align: center;
+    width:80%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    margin: auto;
+    padding:15px;
+}
+.container {
+    width: 80%;
+    margin:auto;
+}
+#directions {
+    text-align: center;
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding:5px;
+}
+#crystals{
+    background-color: blanchedalmond;
+    column-count: 4;
+}
+
+
+ 

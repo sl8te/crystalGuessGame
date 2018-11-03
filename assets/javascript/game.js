@@ -31,9 +31,12 @@
         //restart game
 
 //On window load:
+$("document").ready(function(){
+  
     //let game won = 0 
     //let game lost = 0
     //let user score = 0
     //let Computer randomly assign game score.
     //let Computer randomly assign new point values to each crystal. 
         //keep hidden from user     
+    });
