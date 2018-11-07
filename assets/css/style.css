@@ -22,11 +22,42 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     padding:5px;
+    background-color:lightblue;
 }
 #crystals{
-    background-color: blanchedalmond;
-    column-count: 4;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
-
-
- 
+.crystalimages{
+    border-style: solid;
+    border-color: blue;
+    border-width: thick;
+    margin:15px;
+}
+footer{
+    text-align: center;
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding:5px;
+    background-color:lightblue;
+}
+#gameScore{
+    column-count: 2;
+    text-align: center;
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    padding:10px;
+    background-color:lightgrey;
+}
+#scoreBoard {
+    column-count: 2;
+    text-align: center;
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    padding:10px;
+}

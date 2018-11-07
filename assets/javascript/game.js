@@ -1,6 +1,8 @@
 //Restart Game
     //let user score = 0
+    var userScore = 0
     //let Computer randomly assign new game score.
+
     //let Computer randomly assign new point values to each crystal. 
         //continue to keep hidden from user
 
@@ -11,6 +13,7 @@
 
 //Game Play: 
     //User click's a crystal. 
+
         //this crystal's point value is added to the user's score.
     // wait for user's next click to repeat function again.
             
